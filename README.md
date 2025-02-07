@@ -58,11 +58,3 @@ Simply type your query, and the assistant will process it to return relevant res
 
 ## Custom Queries
 Users can enter free-form queries related to employees and departments. If the system does not recognize or find the requested data, it will return an appropriate message.
-
-## Contribution
-You are welcome to fork this repository, enhance the project, and submit pull requests. Feature requests and improvements are encouraged!
-
-## License
-This project is open-source and released under the MIT License.
-```
-
