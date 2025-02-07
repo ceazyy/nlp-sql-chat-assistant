@@ -59,10 +59,3 @@ Users can type queries in natural language, and the assistant will process them 
 ## Custom Queries
 You can also enter free-form queries related to employees and departments. If the assistant cannot understand or find the requested data, it will return an appropriate message.
 
-## Contribution
-Feel free to fork this repository, improve the code, and submit pull requests. Suggestions and feature requests are welcome!
-
-## License
-This project is open-source and available under the MIT License.
-
-
