@@ -1,4 +1,4 @@
-```
+
 # Natural Language SQL Query Assistant
 
 This project is a chatbot-style assistant that allows users to interact with an SQLite database using natural language queries. It interprets user queries, converts them into SQL commands, executes them on the database, and returns relevant results in a user-friendly format.
@@ -64,5 +64,5 @@ Feel free to fork this repository, improve the code, and submit pull requests. S
 
 ## License
 This project is open-source and available under the MIT License.
-```
+
 
