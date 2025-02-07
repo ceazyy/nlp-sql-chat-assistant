@@ -1,1 +1,1 @@
-"# NLP SQL Chat Assistant" 
+# NLP SQL Chat Assistant
