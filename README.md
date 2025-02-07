@@ -49,7 +49,7 @@ Simply type your query, and the assistant will process it to return relevant res
 7. What is the budget for the **[Department]** department?
 8. Where is the **[Department]** department located?
 9. List all **[Position]** in the company
-10. Who is the highest-paid employee?
+10. Who is the highest paid employee?
 11. What is the average salary in the **[Department]** department?
 12. List all employees with more than **[X]** years of experience
 13. Who were hired in the year **[YYYY]**?
