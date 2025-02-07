@@ -1,12 +1,20 @@
 # Natural Language SQL Query Assistant
 
-This project is a chatbot-based assistant that enables users to query an SQLite database using natural language. It translates user input into SQL queries, executes them, and returns structured results in an easy-to-read format.
+This project is a chatbot-based assistant that allows users to interact with an SQLite database using natural language queries. The assistant translates user input into SQL queries, executes them, and returns structured results in an easy-to-read format.
+
+## How It Works
+1. The user enters a query in plain English.
+2. The chatbot processes the input and matches it with predefined patterns.
+3. If a match is found, the system generates a corresponding SQL query.
+4. The query is executed on the SQLite database.
+5. The assistant retrieves and formats the results before displaying them to the user.
+6. If the query is not recognized, an appropriate error message is returned.
 
 ## Features
-- Converts plain English queries into SQL statements
+- Converts plain English queries into SQL commands
 - Retrieves employee and department details
-- Supports salary calculations, hiring dates, managerial information, and more
-- Displays well-structured results with relevant column names
+- Supports queries related to salaries, hiring dates, managers, and more
+- Provides structured and readable results
 - Developed using Python, SQLite, and Gradio
 
 ## Installation and Setup
@@ -33,10 +41,10 @@ Ensure that the SQLite database file (`employees.db`) is located inside the `dat
 ```bash
 python chatbot.py
 ```
-This will launch a web-based interface where you can enter your queries in natural language.
+This will launch a web-based interface where you can enter queries in natural language.
 
 ## Usage
-Simply type your query, and the assistant will process it to return relevant results from the database.
+Simply type a query, and the assistant will process it to return relevant results from the database.
 
 ### Example Queries
 1. Show me all employees in the **[Department]** department
@@ -55,5 +63,15 @@ Simply type your query, and the assistant will process it to return relevant res
 14. Give me details of **[Employee Name]**
 15. List all employees with email domain **[domain.com]**
 
-## Custom Queries
-Users can enter free-form queries related to employees and departments. If the system does not recognize or find the requested data, it will return an appropriate message.
+## Known Limitations
+- The assistant relies on predefined query patterns and may not handle complex or ambiguous queries effectively.
+- The system does not support advanced SQL operations such as joins, subqueries, or nested queries.
+- If a query does not match any predefined pattern, it returns a generic error message.
+- Data accuracy depends on the correctness of the SQLite database entries.
+
+## Suggestions for Improvement
+- Implement LLM techniques to improve query recognition.
+- Expand the range of supported queries and improve flexibility.
+- Add support for more complex SQL operations like joins and nested queries.
+- Improve error handling and response messages for better user experience.
+
