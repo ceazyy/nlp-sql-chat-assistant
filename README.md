@@ -1,4 +1,3 @@
-
 # Natural Language SQL Query Assistant
 
 This project is a chatbot-based assistant that enables users to query an SQLite database using natural language. It translates user input into SQL queries, executes them, and returns structured results in an easy-to-read format.
@@ -53,7 +52,7 @@ Simply type your query, and the assistant will process it to return relevant res
 11. What is the average salary in the **[Department]** department?
 12. List all employees with more than **[X]** years of experience
 13. Who were hired in the year **[YYYY]**?
-14. Provide details of **[Employee Name]**
+14. Give me details of **[Employee Name]**
 15. List all employees with email domain **[domain.com]**
 
 ## Custom Queries
